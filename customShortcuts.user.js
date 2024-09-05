@@ -31,7 +31,9 @@
         const urlPattern = new URLPattern(pattern, {
           ignoreCase: true,
         });
-        if (urlPattern.test(url)) {
+        const patternMatch = urlPattern.test(url);
+        console.info(pattern, patternMatch);
+        if (patternMatch) {
           return selectors[pattern];
         }
       }
