@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         JavaSE Tutorial Arrow Key Flip Page
+// @name         Arrow Key Flip Page
 // @namespace    https://4kliksAlex.github.com/
 // @version      2024-08-28
 // @description  Trigger navigation elements with left and right arrow keys
