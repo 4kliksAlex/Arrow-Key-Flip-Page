@@ -27,8 +27,8 @@
             ArrowRight: "#lc-home > div > div.css-17lel75-layer1-Container.e19m4yof0 > div.css-1qeh80o-MainContainer.e19m4yof1 > div.css-op50bu-ContentLayoutContainer.e1t6ajs0 > div > div.css-1p8jlme-ContentContainer.e12hyigg1 > div:nth-child(4) > div.css-ob1q0v-Container.elt4qmr0 > a:nth-child(2)"
         },
         "*://docs.spring.io/**": {
-            ArrowLeft: "body > div.body > main > div.content > article > nav > span.next > a",
-            ArrowRight: "body > div.body > main > div.content > article > nav > span.prev > a",
+            ArrowLeft: "body > div.body > main > div.content > article > nav > span.prev > a",
+            ArrowRight: "body > div.body > main > div.content > article > nav > span.next > a",
         }
     };
 
