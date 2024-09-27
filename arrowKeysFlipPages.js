@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Arrow Keys Flip Pages
 // @namespace    https://4kliksAlex.github.com/
-// @version      v0.2.2
+// @version      v0.2.3
 // @description  Trigger Pages Flips with custom arrow key shortcuts
 // @author       4kliksAlex
 // @match        *://*/*
@@ -16,7 +16,7 @@
     const selectors = {
         "*://*.oracle.com/javase/tutorial/*": {
             ArrowLeft: "body > div.MainFlow_wide > div:nth-child(6) > a:nth-child(1)",
-            ArrowRight: "body > div.MainFlow_wide > div:nth-child(6) > a:nth-child(3)",
+            ArrowRight: "body > div.MainFlow_wide > div:nth-child(6) > a:nth-child(3)"
         },
         // "*://*.google.com/search?*": {
         //     ArrowLeft: "#pnprev",
@@ -28,7 +28,10 @@
         },
         "*://docs.spring.io/**": {
             ArrowLeft: "body > div.body > main > div.content > article > nav > span.prev > a",
-            ArrowRight: "body > div.body > main > div.content > article > nav > span.next > a",
+            ArrowRight: "body > div.body > main > div.content > article > nav > span.next > a"
+        },
+        "*://www.zhipin.com/web/geek/resumeAnalyze**": {
+            ArrowRight: "#wrap > div.resume-analyze > div > div.main-content > div.resume-box > div.resume-item.resume-history > div > form > div.resume-analyze-btns > button.btn.btn-outlint"
         }
     };
 
