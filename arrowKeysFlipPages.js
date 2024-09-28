@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Arrow Keys Flip Pages
 // @namespace    https://4kliksAlex.github.com/
-// @version      v0.2.3
+// @version      v0.2.4
 // @description  Trigger Pages Flips with custom arrow key shortcuts
 // @author       4kliksAlex
 // @match        *://*/*
@@ -32,6 +32,10 @@
         },
         "*://www.zhipin.com/web/geek/resumeAnalyze**": {
             ArrowRight: "#wrap > div.resume-analyze > div > div.main-content > div.resume-box > div.resume-item.resume-history > div > form > div.resume-analyze-btns > button.btn.btn-outlint"
+        },
+        "*://dev.mysql.com/doc/refman/**": {
+            ArrowLeft: "#docs-in-page-nav > a:nth-child(1)",
+            ArrowRight: "#docs-in-page-nav > a:nth-child(4)"
         }
     };
 
